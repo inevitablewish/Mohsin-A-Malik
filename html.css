@@ -4,3 +4,13 @@
     padding-right: 13px;
     padding-bottom: 6px;
     padding-left: 13px;
+
+
+
+    ul li{
+        display:inline;
+      }
+      
+      li::before {
+       content: '\25cf\a0';
+      }
